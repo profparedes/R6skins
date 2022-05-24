@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --bg-color: #090d11;
+    --primary-color: #1f303f;
+    --secondary-color: #18242e;
+    --font-color: #335d82;
+
+    --legendary-color: #e8970f;
+    --epic-color: #9037a8;
+    --rare-color: #3d94ca;
+
+    --money-color: #3ab549;
+
+
+    font-size: 62.5%
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+.font-logo{
+    font-family: 'Righteous', cursive;
+    font-size: 5rem
+}
+
+.font-color{
+    color: var(--font-color)
+}
+
+.bg-color{
+    background-color: var(--bg-color)
+}
+
+.bg-primary-color{
+    background-color: var(--primary-color)
+}
+
+.bg-secondary-color{
+    background-color: var(--secondary-color)
+}
+
+.btn-nav {
+    min-width: 10rem;
+}
+
+#main-banner-home {
+    width: 100%;
+    max-height: 28rem;
+    object-fit: cover;
+    object-position: 100% 75%;
+}
+
+#main-banner-about {
+    width: 100%;
+    max-height: 28rem;
+    object-fit: cover;
+    object-position: 100% 50%;
+}
+
+#main-banner-contact {
+    width: 100%;
+    max-height: 22rem;
+    object-fit: cover;
+    object-position: 100% 20%;
+}
+
+#about-img {
+    max-width: 100%;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+.img-carousel {
+    width: 75%;
+    max-height: 90rem;
+    object-fit: cover;
+}
+
+.nav-dropdown:hover{
+    background-color: var(--font-color);
+}
+
+.search-bar{
+    max-width: 30rem;
+}
+
+.legendary-font {
+    color: var(--legendary-color);
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-weight:bolder ;
+    font-size: 3rem;
+}
+
+.epic-font {
+    color: var(--epic-color);
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-weight:bolder ;
+    font-size: 3rem;
+}
+
+.rare-font {
+    color: var(--rare-color);
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-weight:bolder ;
+    font-size: 3rem;
+}
+
+.border-legendary {
+    box-shadow: 0 0 10px var(--legendary-color);
+}
+
+.bg-legendary {
+    background-color: var(--legendary-color);
+}
+
+.border-epic {
+    box-shadow: 0 0 10px var(--epic-color);
+}
+
+.bg-epic {
+    background-color: var(--epic-color);
+}
+
+.border-rare {
+    box-shadow: 0 0 10px var(--rare-color);
+}
+
+.bg-rare {
+    background-color: var(--rare-color);
+}
+
+.money-font {
+    color: var(--money-color);
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.money-cart {
+    color: var(--money-color);
+    font-weight: bolder;
+}
+
+.img-cart {
+    max-width: 50%;
+}
